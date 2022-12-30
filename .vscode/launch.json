@@ -11,7 +11,8 @@
             "cargo": {
                 "args": [
                     "run",
-                    "query file.txt",
+                    "query ${workspaceFolder}/file.txt",
+                    "--show-output",
                 ],
                 "filter": {
                     "name": "test_rust",
